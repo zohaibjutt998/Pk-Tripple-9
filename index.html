@@ -1,6 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  :root { --gold-gradient: linear-gradient(135deg, #f953f 0%, #FCF68A 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%); --dark-bg: #0d0d0d; --card-bg: #1a1a1a; --text-gold: #dfb15b; }
+  body { margin: 0; padding: 0; background-color: var(--dark-bg); color: #fff; font-family: Segoe UI, Tahoma, sans-serif; }
+  h2 { text-align: center; color: #f39c12; margin-top: 20px; }
+  .games-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px; padding: 20px; }
+  .game-card { background: var(--card-bg); border-radius: 12px; padding: 15px; text-align: center; border: 1px solid #2a2a2a; transition: 0.3s; }
+  .game-icon { font-size: 40px; margin-bottom: 10px; }
+  .game-title { font-weight: bold; margin-bottom: 5px; }
+  .play-btn { background: var(--gold-gradient); border: none; padding: 8px 15px; border-radius: 5px; font-weight: bold; cursor: pointer; }
+</style>
+</head>
+<body>
 
-Nothing to preview yet
-Your designs are ready in Design mode. Build a previewable artifact to see it here.
-PK TRIPLE 9 - Luxury Casino :root { --gold-gradient: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%); --dark-bg: #0d0d0d; --card-bg: #1a1a1a; --text-gold: #dfb15b; } body { margin: 0; padding: 0; background-color: var(--dark-bg); color: #fff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; } /* Luxury Header / .header { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; background: #141414; border-bottom: 1px solid #333; } .logo { font-size: 24px; font-weight: bold; background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 2px; } .wallet-box { background: #252525; padding: 8px 15px; border-radius: 20px; border: 1px solid #B38728; color: var(--text-gold); font-weight: bold; } / Banner & Action Buttons / .hero-section { text-align: center; padding: 30px 10px; } .btn-luxury { background: var(--gold-gradient); color: #000; border: none; padding: 12px 25px; font-weight: bold; border-radius: 25px; cursor: pointer; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3); margin: 5px; } / Games Grid */ .games-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px; padding: 20px; } .game-card { background: var(--card-bg); border-radius: 12px; padding: 15px; text-align: center; border: 1px solid #2a2a2a; transition: 0.3s; } .game-card:hover { border-color: #B38728; transform: translateY(-5px); } .game-icon { width: 60px; height: 60px; background: var(--gold-gradient); border-radius: 50%; margin: 0 auto 10px; display: flex; align-items: center; justify-content: center; font-size: 24px; color: #000; } </style>
+<h2>Choose Your Game</h2>
 
-<div class="header"> <div class="logo">PK TRIPLE 9</div> <div class="wallet-box">Balance: PKR 0.00</div> </div> <div class="hero-section"> <h2 style="color: var(--text-gold);">VIP CASINO EXPERIENCE</h2> <button class="btn-luxury">DEPOSIT</button> <button class="btn-luxury" style="background: #333; color: #fff; border: 1px solid #555;">WITHDRAW</button> </div> <div class="games-grid"> <div class="game-card"> <div class="game-icon">🎲</div> <h4>Ludo Quick</h4> </div> <div class="game-card"> <div class="game-icon">🐯</div> <h4>Dragon vs Tiger</h4> </div> <div class="game-card"> <div class="game-icon">🚀</div> <h4>Aviator</h4> </div> <div class="game-card"> <div class="game-icon">🎡</div> <h4>Roulette</h4> </div> </div>
+<div class="games-grid">
+  <div class="game-card">
+    <div class="game-icon">✈️</div>
+    <div class="game-title">Aviator</div>
+    <button class="play-btn">Play Now</button>
+  </div>
+  <div class="game-card">
+    <div class="game-icon">🐉</div>
+    <div class="game-title">Dragon vs Tiger</div>
+    <button class="play-btn">Play Now</button>
+  </div>
+  <div class="game-card">
+    <div class="game-icon">🎲</div>
+    <div class="game-title">Ludo Quick</div>
+    <button class="play-btn">Play Now</button>
+  </div>
+  <div class="game-card">
+    <div class="game-icon">🎰</div>
+    <div class="game-title">Roulette</div>
+    <button class="play-btn">Play Now</button>
+  </div>
+</div>
+
+</body>
+</html>
